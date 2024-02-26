@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: hsl(216, 12%, 8%);  
+}
+.container{
+    width: 360px;
+    height: 360px;
+    background: hsl(213, 19%, 18%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 25px;
+}
+.star_rating{
+    width: 40px;
+    height: 40px;
+    background: hsl(215, 20%, 22%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.no_ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number{
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(217, 12%, 63%);
+    background: hsl(215, 20%, 22%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.number:hover{
+    background: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background: hsl(25, 97%, 53%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+button:hover{
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+
+/*Thank you section*/
+.thank-you{
+    width: 100%;
+    max-height: 0;
+    display: none;
+}
+.illastrative{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selected_no{
+    width: 200px;
+    height: 30px;
+    background: hsl(215, 20%, 22%);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.selected_no p{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(25, 93%, 45%);
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.thank-you p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
